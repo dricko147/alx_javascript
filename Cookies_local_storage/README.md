@@ -1,9 +1,4 @@
 
-
-Curriculum
-Introduction to SWE Average: 74.83%
-Project badge
-0%
 Cookies & local storage
 JavaScript
 
