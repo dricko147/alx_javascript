@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Creating and Removing Elements</title>
+</head>
+<body>
+  <div id="container"></div>
+  <script>
+    const container = document.getElementById("container");
+    const paragraph = document.createElement("p");
+    const button = document.createElement("button");
+
+    paragraph.textContent = "New paragraph";
+    container.appendChild(paragraph);
+
+    button.textContent = "Hide Or Show Paragraph";
+    container.appendChild(button);
+
+    let isVisible = false;
+    button.addEventListener("click", () => {
+        if (isVisible) {
+          paragraph.style.visibility = "visible";
+        }else {
+          paragraph.style.visibility = "hidden";
+        }
+        isVisible = !isVisible;
+      });
+  </script>
+</body>
+</html>
