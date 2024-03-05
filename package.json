@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "install": "^0.13.0",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
