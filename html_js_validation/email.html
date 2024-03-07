@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation - Email Validation</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        input, label {
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        button {
+            cursor: pointer;
+            background-color: yellowgreen;
+            border: none;
+            width: 100px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form id="emailForm">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <button type="submit">Submit</button>
+        <p id="error" style="color: red;"></p>
+    </form>
+    <script src="./js/1-email-validation.js"></script>
+</body>
+</html>
