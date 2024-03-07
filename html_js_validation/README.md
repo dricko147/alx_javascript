@@ -4,9 +4,7 @@
     Master
     By: Dr. Ehoneah Obed
     Weight: 1
-    Project over - took place from Feb 17, 2024 12:00 AM to Feb 22, 2024 11:59 PM
-    Manual QA review must be done (request it when you are done with the project)
-
+    
 Resources
 
 Read or watch:
